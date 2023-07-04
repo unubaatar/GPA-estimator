@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.inputs {
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    height: 50px;
+    width: 250;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.dun, .gpa {
+    width: 75px;
+}
+
+.credit {
+    width: 100px;
+}
+
+#container {
+    display: block;
+}
+
+#add {
+    margin-left: 10px;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+ul{
+    display: inline;
+    border: 1px solid;
+    margin-left: 50px;
+}
+li{
+    list-style-type: none;
+}
+
+#resultCredit, #resultGPA{
+    height: 50px;
+    width: 150px;
+}
+
+.showResult{
+    display: inline-flex;
+}
