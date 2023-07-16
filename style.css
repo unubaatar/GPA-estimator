@@ -6,7 +6,7 @@
 
 body{
     text-align: center;
-    margin-top: 200px;
+    background-color: #34568B;
 }
 
 .inputs {
@@ -20,14 +20,18 @@ input{
     border-radius: 5px;
     font-size: 24px;
     margin-left: 10px;
+    background-color: #45B8AC;
+    color: black;
 }
 
 .dun, .gpa {
     width: 75px;
+    color: black;
 }
 
 .credit {
     width: 100px;
+    color: black;
 }
 
 #container {
@@ -40,6 +44,9 @@ input{
     border-radius: 5px;
     cursor: pointer;
     font-size: 24px;
+    background-color: #45B8AC;
+    width: 100px;
+    height: 50px;
 }
 
 ul{
@@ -58,4 +65,14 @@ li{
 
 .showResult{
     display: inline-flex;
+}
+
+#tailbar {
+    font-size: 36px;
+    color: black;
+}
+
+h1 {
+    padding: 100px;
+    font-size: 56px;
 }
