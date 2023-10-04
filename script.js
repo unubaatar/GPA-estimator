@@ -1,6 +1,8 @@
+// gpa estimator
 var mainGpa = 0;
 var totalCredit = 0;
 var totalGpa = 0;
+
 
 document.getElementById("add").addEventListener("click" , function() {
     var tempGpa;
