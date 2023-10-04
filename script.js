@@ -1,4 +1,5 @@
 // gpa estimator
+var counter = 0;
 var mainGpa = 0;
 var totalCredit = 0;
 var totalGpa = 0;
